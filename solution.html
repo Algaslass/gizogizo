@@ -2,188 +2,209 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Gizo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Gizo</title>
 </head>
 
 <body>
-    <section id="head" class="deep-purple">
-        <div class="navbar-fixed">
-            <nav class="transparent">
-                <div class="container">
-                    <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo">Gizo</a>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
-                                class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="solution.html">Solutions</a></li>
-                            <li><a href="register.html">Sign Up</a></li>
-                            <li><a href="#modalLogin" class="btn purple modal-trigger">log In</a></li>
-                            <li><a href="#" class="white-text"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#" class="white-text"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#" class="white-text"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="solution.html">Solutions</a></li>
-            <li><a href="register.html">Sign Up</a></li>
-            <li><a href="#modalLogin" class="btn purple modal-trigger">log In</a></li>
-
-        </ul>
-        <div id="headTitle" class="container" style="height: 220px;">
-            <div class="row">
-                <div class="center-align white-text">
-                    <h5>Welcome To Gizo</h5>
-                    <h3>Cloud Solutions</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="weDo">
+  <section id="head" class="deep-purple">
+    <div class="navbar-fixed">
+      <nav class="transparent">
         <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h3>What We Do...</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus dolorem harum laboriosam animi sint amet libero, quisquam eius consequatur?</p>
-            </div>
-            <div class="col l6 s12">
-              <div class="row">
-                <div class="col s12">
-                  <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
-                    <li class="tab"><a href="#housting">CLOUD HOSTING</a></li>
-                    <li class="tab"><a class="active" href="#storage">CLOUD STORAGE</a></li>
-                    <li class="tab"><a href="#database">CLOUD DATABASE</a></li>   
-                  </ul>
-                  <div id="housting" class="col s12"><h5>Cloud Hosting</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi eius doloribus voluptatem error! Atque?</p></div>
-                  <div id="storage" class="col s12"><h5>Cloud Storage</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi eius doloribus voluptatem error! Atque?</p></div>
-                  <div id="database" class="col s12"><h5>Cloud Database</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi eius doloribus voluptatem error! Atque?</p></div>
-                </div>
-              </div>
-            </div>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Gizo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="solution.html">Solutions</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+              <li><a href="#modalLogin" class="btn purple modal-trigger">log In</a></li>
+              <li><a href="#" class="white-text"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#" class="white-text"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#" class="white-text"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
           </div>
         </div>
-      </section>
-      <section id="innovation" class="">
-        <div class="container">
-          <h5 class="center purple-text">Powerful & Innovative</h5>
-          <p class="center pHead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, unde.</p>
-          <div class="row">
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-user"></i> Unlimited Users</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione quisquam natus impedit eveniet! Voluptatem unde quidem accusamus sapiente fugiat!</p>
-            </div>
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-database"></i> Scalable Data</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam consectetur nulla recusandae aliquid commodi eos laudantium voluptate dignissimos perferendis.</p>
-            </div>
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-chart-line"></i> Data Analytic</h6>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi animi voluptatibus dignissimos. Corporis rem illum, esse eaque quidem optio dolorum?</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-question"></i></i> Git Integration</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione quisquam natus impedit eveniet! Voluptatem unde quidem accusamus sapiente fugiat!</p>
-            </div>
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-plus"></i></i> Add-ons</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam consectetur nulla recusandae aliquid commodi eos laudantium voluptate dignissimos perferendis.</p>
-            </div>
-            <div class="col l4 m6 s12">
-              <h6><i class="fa-solid fa-hard-drive"></i> Smart Storage</h6>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi animi voluptatibus dignissimos. Corporis rem illum, esse eaque quidem optio dolorum?</p>
-            </div>
-          </div>
-          <div id="innovationContact" class="row center">
-            <a href="#modalLogin" class="btn grey modal-trigger">SIGN UP FOR FREE</a>
-            <h5><span class="purple-text">Have a question?</span> Contact our sales team</h5>
-            <p class="pHead">sales@Gizo.com</p>
-          </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="solution.html">Solutions</a></li>
+      <li><a href="register.html">Sign Up</a></li>
+      <li><a href="#modalLogin" class="btn purple modal-trigger">log In</a></li>
+
+    </ul>
+    <div id="headTitle" class="container" style="height: 220px;">
+      <div class="row">
+        <div class="center-align white-text">
+          <h5>Welcome To Gizo</h5>
+          <h3>Cloud Solutions</h3>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-<footer class="page-footer deep-purple">
+  <section>
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">About Us</h5>
-                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
-                    illum porro debitis ut fugiat molestiae.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#">Home </a></li>
-                    <li><a class="grey-text text-lighten-3" href="solution.html">Solutions</a></li>
-                    <li><a href="register.html" class="grey-text text-lighten-3">Sing Up</a></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <h3>What We Do...</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus dolorem harum laboriosam animi
+            sint amet libero, quisquam eius consequatur?</p>
         </div>
+        <div class="col s12 l8">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3"><a href="#test1">CLOUD HOSTING</a></li>
+              <li class="tab col s3"><a class="active" href="#test2">CLOUD STORAGE</a></li>
+              <li class="tab col s3"><a href="#test4">CLOUD DATABASE</a></li>
+            </ul>
+          </div>
+          <div id="test1" class="col s12">
+            <h5>Cloud Hosting</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi
+                eius doloribus voluptatem error! Atque?</p>
+  
+          </div>
+          <div id="test2" class="col s12">
+            <h5>Cloud Storage</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi
+                eius doloribus voluptatem error! Atque?</p>
+  
+          </div>
+          <div id="test4" class="col s12">
+            <h5>Cloud Database</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione expedita molestiae amet odit commodi
+              eius doloribus voluptatem error! Atque?</p>
+  
+          </div>
+        </div>
+      
+
+      </div>
+    </div>
+  </section>
+  <section id="innovation" class="">
+    <div class="container">
+      <h5 class="center purple-text">Powerful & Innovative</h5>
+      <p class="center pHead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, unde.</p>
+      <div class="row">
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-user"></i> Unlimited Users</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione quisquam natus impedit eveniet!
+            Voluptatem unde quidem accusamus sapiente fugiat!</p>
+        </div>
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-database"></i> Scalable Data</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam consectetur nulla recusandae
+            aliquid commodi eos laudantium voluptate dignissimos perferendis.</p>
+        </div>
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-chart-line"></i> Data Analytic</h6>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi animi voluptatibus dignissimos. Corporis
+            rem illum, esse eaque quidem optio dolorum?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-question"></i></i> Git Integration</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione quisquam natus impedit eveniet!
+            Voluptatem unde quidem accusamus sapiente fugiat!</p>
+        </div>
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-plus"></i></i> Add-ons</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam consectetur nulla recusandae
+            aliquid commodi eos laudantium voluptate dignissimos perferendis.</p>
+        </div>
+        <div class="col l4 m6 s12">
+          <h6><i class="fa-solid fa-hard-drive"></i> Smart Storage</h6>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi animi voluptatibus dignissimos. Corporis
+            rem illum, esse eaque quidem optio dolorum?</p>
+        </div>
+      </div>
+      <div id="innovationContact" class="row center">
+        <a href="#modalLogin" class="btn grey modal-trigger">SIGN UP FOR FREE</a>
+        <h5><span class="purple-text">Have a question?</span> Contact our sales team</h5>
+        <p class="pHead">sales@Gizo.com</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <footer class="page-footer deep-purple">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
+            illum porro debitis ut fugiat molestiae.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#">Home </a></li>
+            <li><a class="grey-text text-lighten-3" href="solution.html">Solutions</a></li>
+            <li><a href="register.html" class="grey-text text-lighten-3">Sing Up</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="footer-copyright deep-purple darken-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <p>Algabid-CS &copy; 2022</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <p class="grey-text text-lighten-4">Terms & Conditions</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <p>Algabid-CS &copy; 2022</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <p class="grey-text text-lighten-4">Terms & Conditions</p>
+          </div>
         </div>
+      </div>
     </div>
-</footer>
-<div id="modalLogin" class="modal">
+  </footer>
+  <div id="modalLogin" class="modal">
     <div class="modal-content">
-        <h4>Account Login</h4>
-        <h6>Login to access your account dashboard</h6>
-        <form action="">
-            <div class="input-field">
-                <input type="email" class="validate">
-                <label for="">Email</label>
-            </div>
-            <div class="input-field">
-                <input type="password" class="validate">
-                <label for="">Password</label>
-            </div>
-        </form>
+      <h4>Account Login</h4>
+      <h6>Login to access your account dashboard</h6>
+      <form action="">
+        <div class="input-field">
+          <input type="email" class="validate">
+          <label for="">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" class="validate">
+          <label for="">Password</label>
+        </div>
+      </form>
     </div>
     <div class="modal-footer">
-        <button class="btn grey" type="reset">
-            <i class="material-icons left">autorenew</i>
-            RESET PASSWORD
-        </button>
-        <button class="btn purple" type="reset">
-            <i class="material-icons left">lock</i>
-            LOGIN
-        </button>
+      <button class="btn grey" type="reset">
+        <i class="material-icons left">autorenew</i>
+        RESET PASSWORD
+      </button>
+      <button class="btn purple" type="reset">
+        <i class="material-icons left">lock</i>
+        LOGIN
+      </button>
     </div>
-</div>
-<ul class="sidenav" id="mobile-demo">
+  </div>
+  <ul class="sidenav" id="mobile-demo">
     <li><a class="active" href="index.html">Home</a></li>
     <li><a href="#">Solutions</a></li>
     <li><a href="register.html">Sing Up</a></li>
@@ -191,7 +212,7 @@
     <li><a href="#" class="white-text"><i class="fa-brands fa-facebook"></i></a></li>
     <li><a href="#" class="white-text"><i class="fa-brands fa-twitter"></i></a></li>
     <li><a href="#" class="white-text"><i class="fa-brands fa-instagram"></i></a></li>
-</ul>
+  </ul>
 
 
 
@@ -202,23 +223,31 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<script>
+  <script>
     document.addEventListener('DOMContentLoaded', function () {
-        //NavBar
-        var sidenav = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(sidenav, {
+      //NavBar
+      var sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav, {
 
-        });
-        //Modal
-        var modal = document.querySelectorAll('.modal');
-        M.Modal.init(modal, {});
-        //ImageResponsive
-        var boxed = document.querySelectorAll('.materialboxed');
-        M.Materialbox.init(boxed, {});
+      });
+      $(document).ready(function () {
+        $('.tabs').tabs();
+      });
+      var instance = M.Tabs.init(tabs, {
+
+      });
+      //Modal
+      var modal = document.querySelectorAll('.modal');
+      M.Modal.init(modal, {
+
+      });
+      //ImageResponsive
+      var boxed = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(boxed, {});
     });
-</script>
+  </script>
 </body>
 
 </html>
